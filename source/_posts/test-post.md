@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###### test
 {% codeblock _.compact http://underscorejs.org/#compact Underscore.js %}
 _.compact([0, 1, false, 2, '', 3]);
-=> [1, 2, 3]
+=> [1, 2]
 {% endcodeblock %}
 
 {% img [class names] https://blog.iddle.dev/public/2023/03/13/test-post/test_img.png [256] [256] '"ai generated image" "alt text"' %}
