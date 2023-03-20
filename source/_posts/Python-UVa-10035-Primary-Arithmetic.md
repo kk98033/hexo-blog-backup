@@ -2,10 +2,12 @@
 title: Python UVa 10035 - Primary Arithmetic
 tags:
   - UVa
+  - UVa 一星
 categories:
   - 解題報告
   - UVa
-excerpt: Python UVa 10035 - Primary Arithmetic
+excerpt: Python UVa 10035 - Primary Arithmetic 解題報告
+description: Python UVa 10035 - Primary Arithmetic 解題報告
 date: 2023-03-17 08:18:21
 ---
 
@@ -24,15 +26,15 @@ date: 2023-03-17 08:18:21
 {% endnote %}
 
 #### Sample Input 
-    123 456
-    555 555
-    123 594
-    0 0
+`123 456`
+`555 555`
+`123 594`
+`0 0`
 
 #### Sample Output 
-    No carry operation.
-    3 carry operations. 
-    1 carry operation.
+`No carry operation.`
+`3 carry operations.`
+`1 carry operation.`
 
 ---
 ## 解題思路
@@ -40,8 +42,11 @@ date: 2023-03-17 08:18:21
 雖然題目是要兩數相加，但其實可以不用真的做加法計算，只需一個變數**carry**來計算目前位置加總的進位值，算式是**n1 + n2 + carry**，如果大於等於10，代表有進位，將**carry**設為**1**並且count + 1，反之將**carry**為**0**，重複此步驟直到兩數都等於0
 *註：取出一個數字 'n' 最後一位: **n % 10*** ，將一個數字 'n' 右移一位: **n // 10***
 
+
+
 ## 程式碼
 ```python
+# UVa 10035 - Primary Arithmetic
 def solve(n1, n2):
     count = carry = 0
     while n1 > 0 or n2 > 0:
@@ -60,4 +65,5 @@ while True:
         print(solve(n1, n2))
     except EOFError:
         break
+# Accepted	PYTH3	0.060
 ```

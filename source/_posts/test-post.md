@@ -8,7 +8,7 @@ banner_img: https://blog.iddle.dev/public/2023/03/13/test-post/test_img.png
 excerpt: this is jsut a test post, it will delete in 69 hours
 
 Last updated: 2023-03-10
-
+hidden: true
 # tags: 
 # - test
 # - test tag
