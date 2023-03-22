@@ -7,8 +7,8 @@ tags:
 categories:
   - [解題報告, UVa]
   - [CPE歷屆, CPE 2023/03/21]
-excerpt: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-description: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
+excerpt: Python UVa 10035 - Primary Arithmetic 解題報告
+description: Python UVa 10035 - Primary Arithmetic 解題報告
 date: 2023-03-17 08:18:21
 ---
 

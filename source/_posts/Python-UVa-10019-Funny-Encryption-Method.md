@@ -35,7 +35,9 @@ b2 = N(當成**十六進位**) 轉為2進位，`1`有幾個
 ---
 ## 解題思路
 使用[`f-string`](https://docs.python.org/zh-tw/3/tutorial/inputoutput.html)(f-string非常方便，建議學起來)，來把10進位數字轉為2進位字串：`f'{decimal:b}'`(decimal為10進位的數字)
+
 對於`b2`，可以先[用int(n, 16)把16進位轉成十進位](https://stackoverflow.com/questions/9210525/how-do-i-convert-hex-to-decimal-in-python)，再丟進f-string轉成二進位字串就好了
+
 至於算有幾個1可以用`.count('1')`
 
 ## 程式碼

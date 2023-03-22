@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Sitemap: https://blog.iddle.dev/public/sitemap.xml

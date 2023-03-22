@@ -1,17 +1,14 @@
 ---
-title: Python UVa 10035 - Primary Arithmetic
+title: Python UVa - 11240 - Antimonotonicity
+date: 2023-03-22 10:21:10
 tags:
   - UVa
-  - UVa 一星
-  - CPE 49題必考題
 categories:
   - [解題報告, UVa]
-  - [CPE歷屆, CPE 2023/03/21]
-excerpt: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-description: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-date: 2023-03-17 08:18:21
+  - [CPE歷屆, 2023/03/21]
+excerpt: Python UVa 10035 - Primary Arithmetic 解題報告
+description: Python UVa 10035 - Primary Arithmetic 解題報告
 ---
-
 # Python UVa 10035 - Primary Arithmetic
 
 >[題目連結](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&category=0&problem=976&mosmsg=Submission%20received%20with%20ID%2028310725) - UVa 10035 - Primary Arithmetic 

@@ -6,9 +6,9 @@ tags:
   - CPE 49題必考題
 categories:
   - [解題報告, UVa]
-  - [CPE歷屆, CPE 2023/03/21]
-excerpt: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-description: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
+  - [CPE, 2023-03-22]
+excerpt: Python UVa 10035 - Primary Arithmetic 解題報告
+description: Python UVa 10035 - Primary Arithmetic 解題報告
 date: 2023-03-17 08:18:21
 ---
 
@@ -48,7 +48,6 @@ date: 2023-03-17 08:18:21
 ## 程式碼
 ```python
 # UVa 10035 - Primary Arithmetic
-# 2023/03/21/ CPE - 1
 def solve(n1, n2):
     count = carry = 0
     while n1 > 0 or n2 > 0:

@@ -1,20 +1,17 @@
 ---
-title: Python UVa 10035 - Primary Arithmetic
+title: Python UVa - 11240 - Antimonotonicity
+date: 2023-03-22 10:21:10
 tags:
   - UVa
-  - UVa 一星
-  - CPE 49題必考題
 categories:
   - [解題報告, UVa]
-  - [CPE歷屆, CPE 2023/03/21]
-excerpt: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-description: 這題是2023/3/21 CPE 的第一題 - Python UVa 10035 - Primary Arithmetic 解題報告
-date: 2023-03-17 08:18:21
+  - [CPE歷屆, 2023/03/21]
+excerpt: Python UVa - 11240 - Antimonotonicity 解題報告
+description: Python UVa - 11240 - Antimonotonicity 解題報告
 ---
+# Python UVa - 11240 - Antimonotonicity
 
-# Python UVa 10035 - Primary Arithmetic
-
->[題目連結](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&category=0&problem=976&mosmsg=Submission%20received%20with%20ID%2028310725) - UVa 10035 - Primary Arithmetic 
+>[題目連結](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&category=0&problem=2181&mosmsg=Submission+received+with+ID+28325133) - UVa - 11240 - Antimonotonicity 
 
 
 
@@ -27,15 +24,17 @@ date: 2023-03-17 08:18:21
 {% endnote %}
 
 #### Sample Input 
-`123 456`
-`555 555`
-`123 594`
-`0 0`
+`4`
+`5 1 2 3 4 5`
+`5 5 4 3 2 1`
+`5 5 1 4 2 3`
+`5 2 4 1 3 5`
 
 #### Sample Output 
-`No carry operation.`
-`3 carry operations.`
-`1 carry operation.`
+`1`
+`2`
+`5`
+`3`
 
 ---
 ## 解題思路
@@ -47,7 +46,7 @@ date: 2023-03-17 08:18:21
 
 ## 程式碼
 ```python
-# UVa 10035 - Primary Arithmetic
+# UVa - 11240 - Antimonotonicity
 # 2023/03/21/ CPE - 1
 def solve(n1, n2):
     count = carry = 0
