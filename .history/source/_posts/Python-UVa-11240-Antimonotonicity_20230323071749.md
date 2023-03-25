@@ -3,7 +3,6 @@ title: Python UVa - 11240 - Antimonotonicity
 date: 2023-03-22 10:21:10
 tags:
   - UVa
-  - UVa 二星
 categories:
   - [解題報告, UVa]
   - [CPE歷屆, CPE 2023/03/21]
