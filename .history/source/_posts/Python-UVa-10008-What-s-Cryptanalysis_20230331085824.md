@@ -50,16 +50,16 @@ description: Python UVa 10008 - What's Cryptanalysis? 解題報告
 
 ---
 ## 解題思路
-這題分為兩個重點， ***算次數*** 和 ***排序***。
+這題分為兩個重點，`算次數`和`排序`。
 先講算次數：
-算次數可以用python中的 ***dictionary*** 很容易的算出來，可參考下方程式碼
-`ans[i] = ans.get(i, 0) + 1`代表的是: 字母`i`的value = (字典中字母i的數量 ***如果字典沒有`i`，就增加一個key: `i`, value: `0`進入字典*** ) + 1
+算次數可以用python中的`dictionary`很容易的算出來，可參考下方程式碼
+`ans[i] = ans.get(i, 0) + 1`代表的是: 字母`i`的value = (字典中字母`i`的數量 ***如果字典沒有`i`，就增加一個key: `i`, value: `0`進入字典*** ) + 1
 關於python`dict.get()`用法可以參考[此文章](https://www.w3schools.com/python/ref_dictionary_get.asp)
 
-算完字母出現幾次後，我把字典的key, value拿出來當作一個字串ex: 'A 15'(中間留一個空格，是為了符合輸出格式)，存在一個陣列 **`ansList`**，之後再依照題目要求來做排序就是答案了
+算完字母出現幾次後，我把字典的`key`, `value`拿出來當作一個字串`ex: 'A 15'`(中間留一個空格，是為了符合輸出格式)，存在一個陣列 **`ansList`**，之後再依照題目要求來做排序就是答案了
 
 再來是排序的部分：
-`ansList.sort(key=lambda x: (-int(x[2:]), x[0]))` 的意思是：以陣列中的x[2:]元素由大排到小(也就是字母出現的次數)(注：加上負號是由大到小排序)，後面的那項x[0]代表如果x[2:]相同，就以x[0]來排序
+`ansList.sort(key=lambda x: (-int(x[2]), x[0]))` 的意思是：以陣列中的`x[2]`元素由大排到小(也就是字母出現的次數)(注：加上負號是由大到小排序)，後面的那項`x[0]`代表如果`x[2]`相同，就以`x[0]`來排序
 詳情可以參考[python多元素的排序](https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes), [python匿名函數Lambda](https://www.w3schools.com/python/python_lambda.asp)
 
 {% note info %}

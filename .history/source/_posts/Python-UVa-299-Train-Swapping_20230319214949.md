@@ -18,7 +18,7 @@ description: Python UVa 299 - Train Swapping 解題報告
 
 
 ## 題意
-題目寫了一大堆，簡單來說就是使用[Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)把火車由小到大做排序
+題目寫了一大堆，簡單來說就是使用[Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)把火車由大到小做排序
 
 #### Sample Input 
 `3`

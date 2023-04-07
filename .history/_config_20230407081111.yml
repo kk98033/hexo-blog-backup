@@ -108,8 +108,6 @@ deploy:
   repo: git@blog.iddle.dev:/home/git/blog.git
   branch: master
   message:  
-  - type: cjh_google_url_submitter
-  - type: cjh_bing_url_submitter
 
 sitemap:
   path: 
@@ -139,3 +137,7 @@ hexo_submit_urls_to_search_engine:
   replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
   find_what: ''
   replace_with: ''
+
+deploy:
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter

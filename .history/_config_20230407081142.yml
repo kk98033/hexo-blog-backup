@@ -108,8 +108,6 @@ deploy:
   repo: git@blog.iddle.dev:/home/git/blog.git
   branch: master
   message:  
-  - type: cjh_google_url_submitter
-  - type: cjh_bing_url_submitter
 
 sitemap:
   path: 
