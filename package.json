@@ -24,7 +24,7 @@
     "hexo-github-card": "^1.0.5",
     "hexo-hide-posts": "^0.2.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-markdown-it": "^7.0.0",
+    "hexo-renderer-markdown-it": "^7.1.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-seo": "^1.2.1",
     "hexo-server": "^3.0.0",
