@@ -32,8 +32,8 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 15 | 10057 |   [A mid-summer night's dream.](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)         |   [link](https://blog.iddle.dev/public/2023/03/25/Python-UVa-10057-A-mid-summer-night-s-dream/)      |
 | 16 | 10062 |   [Tell me the frequencies!](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)         |   [link](https://blog.iddle.dev/public/2023/04/08/Python-UVa-10062-Tell-me-the-frequencies/)      |
 | 17 | 10071 |   [Back to High School Physics](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012)         |   [link](https://blog.iddle.dev/public/2023/04/14/Python-UVa-10071-Back-to-High-School-Physics/)      |
-| 18 | 10093 |   [An Easy Problem!](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034)         |   []()      |
-| 19 | 10101 |   [Bangla Numbers](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)         |   []()      |
+| 18 | 10093 |   [An Easy Problem!](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034)         |   [link](https://blog.iddle.dev/public/2023/12/07/Python-UVa-10093-An-Easy-Problem/)      |
+| 19 | 10101 |   [Bangla Numbers](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)         |   [link](https://blog.iddle.dev/public/2023/12/08/Python-UVa-10101-Bangla-Numbers/)      |
 | 20 | 10170 |   [The Hotel with Infinite Rooms](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)         |   [link](https://blog.iddle.dev/public/2023/03/18/Python-UVa-10170-The-Hotel-with-Infinite-Rooms/)      |
 | 21 | 10189 |   [Minesweeper](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1130)         |   [link](https://blog.iddle.dev/public/2023/05/23/Python-UVa-10189-Minesweeper/)      |
 | 22 | 10190 |   [Divide, But Not Quite Conquer!](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)         |   [link](https://blog.iddle.dev/public/2023/03/18/Python-UVa-10190-Divide-But-Not-Quite-Conquer/)      |
@@ -76,7 +76,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 3. Primary Arithmetic           | CPE10404, [UVA10035](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=976)     |   [link](https://blog.iddle.dev/public/2023/03/17/Python-UVa-10035-Primary-Arithmetic/)   |
 | 4. The 3n + 1 problem           | CPE10400, [UVA100](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)       |   [link](https://blog.iddle.dev/public/2023/03/19/Python-UVa-100-The-3n-1-problem/)   |
 | 5. You can say 11               | CPE10460, [UVA10929](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)     |      |
-| 6. Bangla Numbers               | CPE10414, [UVA10101](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)     |      |
+| 6. Bangla Numbers               | CPE10414, [UVA10101](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)     |   [link](https://blog.iddle.dev/public/2023/12/08/Python-UVa-10101-Bangla-Numbers/)   |
 | 7. List of Conquests            | CPE21924, [UVA10420](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)     |      |
 
 
@@ -111,7 +111,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 
 | 題目                          | 題號                      | 題解 |
 |------------------------------|--------------------------|------|
-| 25. An Easy Problem!          | CPE10413, [UVA10093](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034)     |   |
+| 25. An Easy Problem!          | CPE10413, [UVA10093](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034)     | [link](https://blog.iddle.dev/public/2023/12/07/Python-UVa-10093-An-Easy-Problem/)  |
 | 26. Fibonaccimal Base         | CPE10401, [UVA948](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)       |   |
 | 27. Funny Encryption Method   | CPE10403, [UVA10019](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)     |   |
 | 28. Parity                    | CPE10461, [UVA10931](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)     |   |
