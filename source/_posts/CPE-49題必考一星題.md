@@ -46,8 +46,8 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 29  | 10252     | [Common Permutation](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1193)                             | [link](https://blog.iddle.dev/public/2023/05/23/Python-UVa-10252-Common-Permutation/)            |
 | 30  | 10268     | [498-bis](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=14&page=show_problem&problem=1209)                            | [link](https://blog.iddle.dev/public/2024/04/05/Python-UVa-10268-498-bis/)                       |
 | 31  | 10409     | [Die Game](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)                       | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10409-Die-Game/)                      |
-| 32  | 10415     | [Eb Alto Saxophone Player](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)       | []()                                                                                             |
-| 33  | 10420     | [List of Conquests](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)                  | []()                                                                                             |
+| 32  | 10415     | [Eb Alto Saxophone Player](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)       | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10415-Eb-Alto-Saxophone-Player/)      |
+| 33  | 10420     | [List of Conquests](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)                  | [link](https://blog.iddle.dev/public/2024/04/07/Python-UVa-10420-List-of-Conquests/)             |
 | 34  | 10642     | [Can You Solve It?](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)              | []()                                                                                             |
 | 35  | 10783     | [Odd Sum](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1724)                        | []()                                                                                             |
 | 36  | 10812     | [Beat the Spread!](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1753)                               | []()                                                                                             |
@@ -77,7 +77,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 4. The 3n + 1 problem        | CPE10400, [UVA100](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)      | [link](https://blog.iddle.dev/public/2023/03/19/Python-UVa-100-The-3n-1-problem/)            |
 | 5. You can say 11            | CPE10460, [UVA10929](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870) |                                                                                              |
 | 6. Bangla Numbers            | CPE10414, [UVA10101](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042) | [link](https://blog.iddle.dev/public/2023/12/08/Python-UVa-10101-Bangla-Numbers/)            |
-| 7. List of Conquests         | CPE21924, [UVA10420](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361) |                                                                                              |
+| 7. List of Conquests         | CPE21924, [UVA10420](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361) | [link](https://blog.iddle.dev/public/2024/04/07/Python-UVa-10420-List-of-Conquests/)         |
 
 
 ## 字元與字串
@@ -148,13 +148,13 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 
 ## 模擬
 
-| 題目                           | 題號                                                                                                                                  | 題解                                                                           |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 44. Minesweeper                | CPE10418, [UVA10189](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130) | [link](https://blog.iddle.dev/public/2023/05/23/Python-UVa-10189-Minesweeper/) |
-| 45. Die Game                   | CPE11019, [UVA10409](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350) | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10409-Die-Game/)    |
-| 46. Eb Alto Saxophone Player   | CPE11020, [UVA10415](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356) |                                                                                |
-| 47. Mutant Flatworld Explorers | CPE23641, [UVA118](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)     |                                                                                |
-| 48. Cola                       | CPE11067, [UVA11150](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091) |                                                                                |
+| 題目                           | 題號                                                                                                                                  | 題解                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 44. Minesweeper                | CPE10418, [UVA10189](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130) | [link](https://blog.iddle.dev/public/2023/05/23/Python-UVa-10189-Minesweeper/)              |
+| 45. Die Game                   | CPE11019, [UVA10409](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350) | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10409-Die-Game/)                 |
+| 46. Eb Alto Saxophone Player   | CPE11020, [UVA10415](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356) | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10415-Eb-Alto-Saxophone-Player/) |
+| 47. Mutant Flatworld Explorers | CPE23641, [UVA118](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)     |                                                                                             |
+| 48. Cola                       | CPE11067, [UVA11150](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091) |                                                                                             |
 
 ## 其他
 
