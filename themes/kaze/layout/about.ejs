@@ -1,0 +1,76 @@
+<%# preload %>
+<%- preload_css('//at.alicdn.com/t/font_1946621_i1kgafibvw.css') %>
+<%- preload_css('//at.alicdn.com/t/font_1952792_89b4ac4k4up.css') %>
+<%- preload_css(url_for('css/main.css')) %>
+<% if(theme.comment.type === 'waline' && theme.comment.enable) { %>
+  <% if(is_post()) { %>
+    <%- preload_css(url_for(theme.cdn.waline.css)) %>
+    <%- preload_js(url_for(theme.cdn.waline.js)) %>
+  <% } else { %>
+    <%- prefetch_css(url_for(theme.cdn.waline.css)) %>
+    <%- prefetch_js(url_for(theme.cdn.waline.js)) %>
+  <% } %>
+<% } %>
+<link rel="modulepreload" href="//instant.page/5.1.0">
+<%# main css %>
+<%- ex_css(url_for('css/main.css')) %>
+<%# default icon %>
+<%- ex_css('//at.alicdn.com/t/font_1946621_i1kgafibvw.css') %>
+<%# social icon %>
+<%- ex_css('//at.alicdn.com/t/font_1952792_89b4ac4k4up.css') %>
+<%# comments css %>
+<% if(theme.comment.type === 'waline' && theme.comment.enable) { %>
+  <%- ex_css(url_for(theme.cdn.waline.css)) %>
+<% } %>
+<% if(theme.lightbox.enable) { %>
+  <%- ex_css(url_for(theme.cdn.baguetteBox + '/baguetteBox.min.css')) %>
+<% } %>
+
+<% page.title = page.title || __('about.title') %>
+<div class="card card-content about-card">
+  <% if(theme.author_img) { %>
+    <img 
+      src="<%= url_for(theme.author_img) %>" 
+      class="about-card-avatar" 
+      alt="Blog Author Avatar" />
+  <% } %>
+  <div class="about-card-content">
+    <div class="about-card-author"><%= theme.author || config.author %></div>
+    <% if(theme.about.description) { %>
+      <div class="about-card-dsc"><%= theme.about.description %></div>
+    <% } %>
+    <div class="about-card-society">
+      <% if(theme.about.social_links) { %> 
+        <% for(const item of theme.about.social_links) { %>
+          <div class="about-card-society-icon">
+            <a href="<%= url_for(item.link) %>">
+              <i class="iconfont <%= item.icon %> society-icon"></i>
+            </a>
+          </div>
+        <% } %> 
+      <% } %>
+    </div>
+  </div>
+</div>
+<div class="card card-content">
+  <div class="post-content"><%- page.content %></div>
+</div>
+
+<%- partial('_partial/pagination', { 
+  prev_label: __('prev_post.title'), next_label:__('next_post.title'),
+  prev_link: page.prev ? page.prev.path : '', next_link: page.next ? page.next.path : '',
+  prev_title: page.prev ? page.prev.title : '', next_title: page.next ? page.next.title : ''
+}) %>
+<% if(theme.comment.enable && page.comment !== false) { %>
+<div 
+  class="card card-content comment-card" 
+  style="margin-top: 16px;">
+  <div class="comment-card-title">評論</div>
+  <%- partial('_partial/plugins/comments/' + theme.comment.type) %>
+</div>
+<% } %>
+<div 
+class="card card-content toc-card" 
+id="mobiletoc">
+<%- partial('_partial/toc-card') %>
+</div>
