@@ -3,6 +3,8 @@ title: Python UVa 10420 - List of Conquests
 date: 2024-04-07 19:47:01
 tags:
   - UVa
+  - Python
+  - CPE 49題必考題
 categories:
   - [解題心得, UVa]
 excerpt: 這題就只需要統計字串出現的次數並且排序而已！ - Python UVa 10420 - List of Conquests 解題心得

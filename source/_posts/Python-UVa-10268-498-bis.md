@@ -3,6 +3,8 @@ title: Python UVa 10268 - 498-bis
 date: 2024-04-05 14:10:42
 tags:
   - UVa
+  - Python
+  - CPE 49題必考題
 categories:
   - [解題心得, UVa]
 excerpt: 這題又是數學題，基本上跟著他題目的描述做就可以了（但是 python 這樣做在 uva online judge 上面會超時，文章內會提到如何解決） - Python UVa 10268 - 498-bis 解題心得

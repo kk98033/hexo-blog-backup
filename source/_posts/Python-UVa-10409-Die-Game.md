@@ -3,6 +3,8 @@ title: Python UVa 10409 - Die Game
 date: 2024-04-06 11:59:09
 tags:
   - UVa
+  - Python
+  - CPE 49題必考題
 categories:
   - [解題心得, UVa]
 excerpt: 這題應該算是模擬題，只要知道骰子的排列規則就可以輕鬆解決了！ - Python UVa 10409 - Die Game 解題心得
