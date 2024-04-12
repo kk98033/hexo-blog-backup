@@ -57,7 +57,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 40  | 10931     | [Parity](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1872)                         | []()                                                                                             |
 | 41  | 11005     | [Cheapest Base](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)                  | []()                                                                                             |
 | 42  | 11063     | [B2-Sequence](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2004)                    | []()                                                                                             |
-| 43  | 11150     | [Cola](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)                           | []()                                                                                             |
+| 43  | 11150     | [Cola](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)                           | [link](https://blog.iddle.dev/public/2024/04/12/Python-UVa-11150-Cola/#google_vignette)          |
 | 44  | 11321     | [Sort! Sort!! and Sort!!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296)                                | []()                                                                                             |
 | 45  | 11332     | [Summing Digits](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)                     | []()                                                                                             |
 | 46  | 11349     | [Symmetric Matrix](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2324)               | []()                                                                                             |
@@ -154,7 +154,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 45. Die Game                   | CPE11019, [UVA10409](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350) | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10409-Die-Game/)                 |
 | 46. Eb Alto Saxophone Player   | CPE11020, [UVA10415](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356) | [link](https://blog.iddle.dev/public/2024/04/06/Python-UVa-10415-Eb-Alto-Saxophone-Player/) |
 | 47. Mutant Flatworld Explorers | CPE23641, [UVA118](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)     |                                                                                             |
-| 48. Cola                       | CPE11067, [UVA11150](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091) |                                                                                             |
+| 48. Cola                       | CPE11067, [UVA11150](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091) | [link](https://blog.iddle.dev/public/2024/04/12/Python-UVa-11150-Cola/#google_vignette)     |
 
 ## 其他
 
