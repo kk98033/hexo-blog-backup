@@ -73,9 +73,11 @@ a2enmod headers
 {% endnote %}
 
 ## 2. 設置 .htaccess 或 Apache 設置文件
-接下來，你需要在 Apache 的 **.htaccess** 文件或 Apache 的配置文件中設置 CORS 相關的 HTTP 標頭。以下是一個基本的配置示例：
+接下來，你需要在 Apache 的 **.htaccess** 文件或 Apache 的配置文件中設置 CORS 相關的 HTTP 標頭。
 
 如果沒有 .htaccess，可以創建一個 .htaccess 放在你 api 的根目錄！記得要在 `apache2.conf`裡面設定 `AllowOverride All`來允許他！詳細設定可以 [參考這個網站](https://phoenixnap.com/kb/how-to-set-up-enable-htaccess-apache)
+
+直接在 .htaccess 裡面加上下方的指令就可以了！
 
 假設你只想允許來自 https://www.example.com 的請求訪問你的 API，你可以這樣設定：
 ```shell

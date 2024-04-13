@@ -63,7 +63,7 @@ search:
   enable: true
   path: https://blog.iddle.dev/public/search.json
   field: posts
-  searchContent: false
+  searchContent: true
 
 og:
   enable: true

@@ -3,6 +3,7 @@ title: Python UVa 10415 - Eb Alto Saxophone Player
 date: 2024-04-06 12:47:39
 tags:
   - UVa
+  - Python
 categories:
   - [解題心得, UVa]
 excerpt: 這題是模擬題，只要讀懂題目意思就可以輕鬆解決了！ - Python UVa 10409 - Die Game 解題心得

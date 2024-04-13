@@ -24,7 +24,7 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 #### 設置開發環境
 安裝完後可以先創一個資料夾，並且對他點擊右鍵，選擇 `在終端開啟`，開啟後輸入 `code .` 來開啟 vsocde 的開發環境，我們可以先創建一個簡單的 `index.php` 來測試。
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/1.png 512  '"開啟vsocde開發環境" "開啟vsocde開發環境"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/1.png 256  '"開啟vsocde開發環境" "開啟vsocde開發環境"' %}
 
 ```php
 <?php
@@ -35,34 +35,34 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 
 如果 Live Server 有安裝成功，此時在 vscode 右下角應該會出現 `Go Live`，點擊他就可以開啟 Live server
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/2.png 512  '"開啟 Live server" "開啟 Live server"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/2.png 256  '"開啟 Live server" "開啟 Live server"' %}
 
 開啟完後你應該會發現他把整個目錄的項目都列了出來，因為 Live Server 並不支援 PHP 網頁。
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/3.png 512  '"開啟 Live server 後" "開啟 Live server 後"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/3.png 256  '"開啟 Live server 後" "開啟 Live server 後"' %}
 
 #### 設置 PHP Server
 要實現在 VScode 開啟 PHP 網頁，我們可以用 PHP Server 這個套件，安裝完後應該可以在 vscode 右上角的 `PHP icon` 或者點擊右鍵選擇 `PHP Server: Open file in browser`，來開啟 PHP Server。
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/4.png 512  '"4" "4"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/4.png 256  '"4" "4"' %}
 
 如果開啟後出現： **PHP not found**，代表你沒有設定 php.exe 的位置。
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/5.png 512  '"5" "5"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/5.png 256  '"5" "5"' %}
 
 #### 設置 PHP 位置
 你需要先在 [PHP 官方網站](https://windows.php.net/download#php-8.3) 下載 PHP，下載完解壓縮放在一個資料夾裡。
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/6.png 512  '"6" "6"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/6.png 256  '"6" "6"' %}
 
 接下來在 vscode 裡面，點擊 **File->Preferences->settings**
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/7.png 512  '"7" "7"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/7.png 256  '"7" "7"' %}
 
 然後在上方搜尋：**php**，在下方找到 `Phpserver: PHP Config Path` 以及 `Phpserver: PHP Path`的地方，在裡面輸入你剛才下載的 php 資料夾內的 `php.exe`路徑
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/8.png 512  '"8" "8"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/8.png 256  '"8" "8"' %}
 
 設定完 php.exe 路徑後再次啟動 PHP Server 應該就可以成功啟用了！
 
-{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/9.png 512  '"9" "9"' %}
+{% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/9.png 256  '"9" "9"' %}
 
 #### 安裝 Chrome Live Server Web Extension
 為了讓 Live Server 可以跟 PHP Server 連動，這時就要使用 [Live Server Web Extension](https://chromewebstore.google.com/detail/fiegdmejfepffgpnejdinekhfieaogmj) 這個 Chrome 插件，安裝完後應該可以在 Chrome 的插件選項找到並打開它，打開後我們會要設定三個選項：
