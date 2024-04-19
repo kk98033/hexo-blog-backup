@@ -239,7 +239,7 @@ Source 6:
 
 ## 04/19 Update：取得來源的資訊
 （詳細程式碼可以看[更新後的版本（沒有用 milvus）](https://colab.research.google.com/drive/11oQ4tnOWZdIid_5jxPI3PvX6v0UMD8Qq?usp=sharing)）
-最近在翻 llamindex 的 document 看到原來 `query_engine.query()` 回傳的 response 可以得到他的 **metadata**。接下來我會簡單演飾**如何取得資料參考來源的詳細資料**。
+最近在翻 llamindex 的 document 時，看到原來 `query_engine.query()` 回傳的 response 可以得到他的 **metadata**。接下來我會簡單演飾**如何取得資料參考來源的詳細資料**。
 
 我們先再 query 一次，取得 response：
 ```python
