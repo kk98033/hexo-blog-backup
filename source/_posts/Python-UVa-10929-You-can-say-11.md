@@ -10,7 +10,7 @@ categories:
 excerpt: 這題是 python 的福音，因為 Python 可以直接處理大數，所以可以直接 % 11 :D (不過還是要注意他的測資)，如果是 C++ 可能就比較麻煩了。 - Python UVa 10929 - You can say 11 解題心得
 description: 這題是 python 的福音，因為 Python 可以直接處理大數，所以可以直接 % 11 :D (不過還是要注意他的測資)，如果是 C++ 可能就比較麻煩了。 - Python UVa 10929 - You can say 11 解題心得
 ---
-# 
+# Python UVa 10929 - You can say 11 Python 解法
 
 >[題目連結](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&category=0&problem=1870&mosmsg=Submission+received+with+ID+29384240) - UVa 10929 - You can say 11
 

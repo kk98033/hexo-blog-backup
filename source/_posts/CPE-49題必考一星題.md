@@ -55,7 +55,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 38  | 10922     | [2 the 9s](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)                       | []()                                                                                             |
 | 39  | 10929     | [You can say 11](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)                     | [link](https://blog.iddle.dev/public/2024/04/16/Python-UVa-10929-You-can-say-11/)                |
 | 40  | 10931     | [Parity](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1872)                         | []()                                                                                             |
-| 41  | 11005     | [Cheapest Base](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)                  | []()                                                                                             |
+| 41  | 11005     | [Cheapest Base](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)                  | [link](https://blog.iddle.dev/public/2024/04/19/Python-UVa-11005-Cheapest-Base/)                 |
 | 42  | 11063     | [B2-Sequence](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2004)                    | []()                                                                                             |
 | 43  | 11150     | [Cola](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)                           | [link](https://blog.iddle.dev/public/2024/04/12/Python-UVa-11150-Cola/#google_vignette)          |
 | 44  | 11321     | [Sort! Sort!! and Sort!!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296)                                | []()                                                                                             |
@@ -115,7 +115,7 @@ CPE每次考試都會從49題一星題中隨機選出一題來考，建議可以
 | 26. Fibonaccimal Base       | CPE10401, [UVA948](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)    |                                                                                    |
 | 27. Funny Encryption Method | CPE10403, [UVA10019](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)  |                                                                                    |
 | 28. Parity                  | CPE10461, [UVA10931](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872) |                                                                                    |
-| 29. Cheapest Base           | CPE10466, [UVA11005](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946) |                                                                                    |
+| 29. Cheapest Base           | CPE10466, [UVA11005](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946) | [link](https://blog.iddle.dev/public/2024/04/19/Python-UVa-11005-Cheapest-Base/)   |
 
 ## 質數、因數與倍數
 
