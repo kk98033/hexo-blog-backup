@@ -8,9 +8,10 @@ categories:
   - 學習筆記
 excerpt: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網頁，並且使用 Live Server 即時開發。
 description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網頁，並且使用 Live Server 即時開發。
+toc: true
 ---
 
-# 使用 VSCode 實現 PHP server 和 Live Server 的即時開發 (Windows系統)
+## 使用 VSCode 實現 PHP server 和 Live Server 的即時開發 (Windows系統)
 
 在當今快速變化的技術領域中，開發工具的選擇可以大大影響我們的工作效率和產品質量。[Visual Studio Code（VSCode）](https://code.visualstudio.com/) 憑藉其輕量級設計、強大的功能和豐富的插件生態系統，已經成為全球開發者的首選之一。
 
@@ -18,10 +19,10 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 
 由於 Live Server 插件本身不支援 PHP 文件，這就需要我們進行一些特別的設定和調整。在接下來的內容中，我們將一步一步探索如何在 Windows 系統利用 VSCode 運行 [PHP server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)，同時結合 Live Server 插件，來實現 PHP 即時更新功能。
 
-#### 安裝插件
+## 安裝插件
 安裝 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 以及 [PHP server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
 
-#### 設置開發環境
+## 設置開發環境
 安裝完後可以先創一個資料夾，並且對他點擊右鍵，選擇 `在終端開啟`，開啟後輸入 `code .` 來開啟 vsocde 的開發環境，我們可以先創建一個簡單的 `index.php` 來測試。
 
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/1.png 256  '"開啟vsocde開發環境" "開啟vsocde開發環境"' %}
@@ -41,7 +42,7 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/3.png 256  '"開啟 Live server 後" "開啟 Live server 後"' %}
 
-#### 設置 PHP Server
+## 設置 PHP Server
 要實現在 VScode 開啟 PHP 網頁，我們可以用 PHP Server 這個套件，安裝完後應該可以在 vscode 右上角的 `PHP icon` 或者點擊右鍵選擇 `PHP Server: Open file in browser`，來開啟 PHP Server。
 
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/4.png 256  '"4" "4"' %}
@@ -49,7 +50,7 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 如果開啟後出現： **PHP not found**，代表你沒有設定 php.exe 的位置。
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/5.png 256  '"5" "5"' %}
 
-#### 設置 PHP 位置
+## 設置 PHP 位置
 你需要先在 [PHP 官方網站](https://windows.php.net/download#php-8.3) 下載 PHP，下載完解壓縮放在一個資料夾裡。
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/6.png 256  '"6" "6"' %}
 
@@ -64,7 +65,7 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/9.png 256  '"9" "9"' %}
 
-#### 安裝 Chrome Live Server Web Extension
+## 安裝 Chrome Live Server Web Extension
 為了讓 Live Server 可以跟 PHP Server 連動，這時就要使用 [Live Server Web Extension](https://chromewebstore.google.com/detail/fiegdmejfepffgpnejdinekhfieaogmj) 這個 Chrome 插件，安裝完後應該可以在 Chrome 的插件選項找到並打開它，打開後我們會要設定三個選項：
 
 1. Live Reload：打開它
@@ -75,6 +76,6 @@ description: 本文章將會使用 VScode 來實現在 VScode 中開啟 php 網�
 設定如下：
 {% img [class names] https://blog.iddle.dev/public/2024/04/04/%E4%BD%BF%E7%94%A8VSCode%E5%AF%A6%E7%8F%BEPHP-server%E5%92%8CLive-Server%E7%9A%84%E5%8D%B3%E6%99%82%E9%96%8B%E7%99%BC/10.png 200  '"10" "10"' %}
 
-#### 實現 PHP 實時編輯自動更新功能！
+## 實現 PHP 實時編輯自動更新功能！
 最後將 PHP Server 以及 Live Server 都打開就可以實現用 VScode 實時編輯自動更新的功能！
 開啟 PHP Server 可以先點右鍵，選擇 **PHP Server: Reload server** 選項，然後再選擇 **PHP Server: Open file in browser**。

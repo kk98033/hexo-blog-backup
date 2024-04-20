@@ -8,9 +8,10 @@ categories:
   - 學習筆記
 excerpt: 最近在解決 LLM 回答問題準確度的問題，我找到了一項名為 RAG（Retrieval-Augmented Generation）的技術，這是一種旨在提升大型語言模型回答品質的方法。 RAG 通過先行檢索相關資料，然後基於這些資料生成回答，這種方式不僅可以增強了模型的回答能力，還提供了一種機制來追溯資訊源頭。
 description: 最近在解決 LLM 回答問題準確度的問題，我找到了一項名為 RAG（Retrieval-Augmented Generation）的技術，這是一種旨在提升大型語言模型回答品質的方法。 RAG 通過先行檢索相關資料，然後基於這些資料生成回答，這種方式不僅可以增強了模型的回答能力，還提供了一種機制來追溯資訊源頭。
+toc: true
 ---
 
-# 透過 RAG 技術強化 LLM 資訊檢索並明確呈現來源追溯
+## 透過 RAG 技術強化 LLM 資訊檢索並明確呈現來源追溯
 
 最近在解決 LLM 回答問題準確度的問題，我找到了一項名為 **RAG（Retrieval-Augmented Generation）** 的技術，這是一種旨在提升大型語言模型回答品質的方法。 RAG 通過先行檢索相關資料，然後基於這些資料生成回答，這種方式不僅可以增強了模型的回答能力，還提供了一種機制來追溯資訊源頭。
 有興趣看實作可以參考[RAG 實作篇](https://blog.iddle.dev/public/2024/04/03/%E9%80%8F%E9%81%8E-RAG-%E6%8A%80%E8%A1%93%E5%BC%B7%E5%8C%96-LLM-%E8%B3%87%E8%A8%8A%E6%AA%A2%E7%B4%A2%E4%B8%A6%E6%98%8E%E7%A2%BA%E5%91%88%E7%8F%BE%E4%BE%86%E6%BA%90%E8%BF%BD%E6%BA%AF-%E5%AF%A6%E4%BD%9C%E7%AF%87/)

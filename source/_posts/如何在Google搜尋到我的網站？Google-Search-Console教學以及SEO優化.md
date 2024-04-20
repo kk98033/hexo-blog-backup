@@ -30,7 +30,7 @@ toc: true
 
 大部分無法在 Google 搜尋到自己網站的原因大部分都是因為 **第二點** 的關係，我們可以直接在Chrome上使用`site:example.com`來看網站是否有在 Google 的搜索結果上，以我的主網站 `iddle.dev` 為例：
 
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/site.png  256 '"site:iddle.dev示範" "site:iddle.dev示範"' %}
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/site.png  512 '"site:iddle.dev示範" "site:iddle.dev示範"' %}
 
 {% note primary %}
 site: 運算子不一定會傳回在查詢中所指定前置字元下建立索引的所有網址。
@@ -48,7 +48,7 @@ site: 運算子不一定會傳回在查詢中所指定前置字元下建立索�
 
 ## Google Search Console 使用教學
 在登入[Google Search Console](https://search.google.com/search-console/about)後，會出現以下的選項:
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_1.png 256 '"登入Google Search Console後" "登入Google Search Console後"' %}<br/>
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_1.png 512 '"登入Google Search Console後" "登入Google Search Console後"' %}<br/>
 
 你可以選擇使用 **網域** 或者是 **網址前置字元** 
 1. 使用網域：可以監控此網域下的所有資料 ex: example.com
@@ -57,10 +57,10 @@ site: 運算子不一定會傳回在查詢中所指定前置字元下建立索�
 我這裡以我的blog *(blog.iddle.dev)* 為例，使用 **網址前置字元**。
 如果你的網站是 `example.com/public` 這樣的形式，也請用 **網址前置字元**
 以 https://web.nttu.edu.tw/taweb 為例
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/extra_1.png 256 '"輸入網址" "輸入網址"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/extra_1.png 512 '"輸入網址" "輸入網址"' %}<br />
 
 輸入我blog的網址 https://blog.iddle.dev/public/ ，點繼續之後會出現驗證所有權的頁面：
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_2.png 256 '"驗證擁有權" "驗證擁有權"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_2.png 512 '"驗證擁有權" "驗證擁有權"' %}<br />
 
 
 
@@ -82,20 +82,20 @@ website
 {% endcodeblock %}<br/>
    
 上傳完成後按驗證應該會看到 **已驗證所有權** 的提示，按前往資源就可以開始使用 Google Search Console 了！
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_3.png 256 '"已驗證擁有權" "已驗證擁有權"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_3.png 512 '"已驗證擁有權" "已驗證擁有權"' %}<br />
 
 
 你的頁面應該會長這樣：
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_4.png 256 '"Google Search Console 頁面" "Google Search Console 頁面"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_4.png 512 '"Google Search Console 頁面" "Google Search Console 頁面"' %}<br />
 
 
 我們可以看到左邊有許多的工具，我們可以簡單地查看你的網頁是否已經編入 Google 的索引裡。
 
 首先點擊 **產生索引** 區域的 **網頁** ，此頁面會列出已建立索引的連結的數量
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_5.png 256 '"所有已建立索引的連結" "所有已建立索引的連結"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_5.png 512 '"所有已建立索引的連結" "所有已建立索引的連結"' %}<br />
 
 在下方有個 **查看已建立索引網頁的相關資料** ，點進去後可以看到所有已建立索引的連結，這些連結都是可以在 Google 上搜索到的網頁
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_6.png 256 '"所有已建立索引的連結" "所有已建立索引的連結"' %}
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_6.png 512 '"所有已建立索引的連結" "所有已建立索引的連結"' %}
 
 接下來我會介紹如何手動推送網頁到 Google 上
 
@@ -103,17 +103,17 @@ website
 對於新上線的網頁， Google 並不會馬上知道這個網頁，要快速的讓 Google 知道這個網頁，我們可以使用 Google Search Console 來手動推送網頁。
 
 首先點擊 **網址審查** ，輸入你要編入索引的網址
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_7.png 256 '"網址審查" "網址審查"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_7.png 512 '"網址審查" "網址審查"' %}<br />
 
 
 按下enter後， Google 會查看這個網址是否有被編入索引，如果沒有，會出現像這樣的頁面：
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_8.png 256 '"網址審查" "網址審查"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_8.png 512 '"網址審查" "網址審查"' %}<br />
 
 
 我們可以看到下方的 **發現方式** ，有 **sitemap** 和 **參照網頁** 部分，這兩項是 Google 爬蟲如何找到你網頁的方式，我們也可以使用 **sitemap** 讓 Google 爬蟲自動來找到你的網頁，關於sitemap，等等我也會一起介紹
 
 你可以按下 **要求建立索引** 來手動要求 Google 幫你的網頁建立索引，按下後等 Google 測試線上網址是否可以編入索引之後就成功要求建立索引了！
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_9.png 256 '"建立索引" "建立索引"' %}<br /><br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_9.png 512 '"建立索引" "建立索引"' %}<br /><br />
 
 此時 Google 就會把你的網址排入建立索引的隊列，大概過個 **最多兩三天** 就可以在 Google 上搜索到你的網頁了！
 
@@ -140,10 +140,10 @@ Sitemap 對於剛建立的網站很有效，因為 Googlebot 和其他網路檢�
 {% endnote %}
 
 你應該會下載下來一個 **.xml** 檔案，這就是你的 sitemap，內容大概會長這樣
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_10.png 256 '"sitemap" "sitemap"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_10.png 512 '"sitemap" "sitemap"' %}<br />
 
 把 sitemap 下載下來後，將他放在你伺服器的根目錄 ex: https://www.example.com/sitemap.xml，確定打上網址後可以在你瀏覽器上看到sitemap後就可以去到 Google Search Console 的 **Sitemap** 欄位提交你的sitemap了
-{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_11.png 256 '"sitemap" "sitemap"' %}<br />
+{% img [class names] https://blog.iddle.dev/public/2023/04/09/%E5%A6%82%E4%BD%95%E5%9C%A8Google%E6%90%9C%E5%B0%8B%E5%88%B0%E6%88%91%E7%9A%84%E7%B6%B2%E7%AB%99%EF%BC%9FGoogle-Search-Console%E6%95%99%E5%AD%B8%E4%BB%A5%E5%8F%8ASEO%E5%84%AA%E5%8C%96/GSC_example_11.png 512 '"sitemap" "sitemap"' %}<br />
 
 {% note primary %}
 通常新架設的網站就算加了sitemap或者是手動添加還是不一定會被馬上找到，可能還是需要一兩天才能讓 Google 檢索到

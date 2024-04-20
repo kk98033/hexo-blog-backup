@@ -8,9 +8,10 @@ categories:
   - 學習筆記
 excerpt: 本篇文章將會使用之前所提到的 RAG 技術，實作一個可以返回資訊來源的 LLM
 description: 最近在解決 LLM 回答問題準確度的問題，我找到了一項名為 RAG（Retrieval-Augmented Generation）的技術，這是一種旨在提升大型語言模型回答品質的方法。 RAG 通過先行檢索相關資料，然後基於這些資料生成回答，這種方式不僅可以增強了模型的回答能力，還提供了一種機制來追溯資訊源頭。
+toc: true
 ---
 
-# 透過 RAG 技術強化 LLM 資訊檢索並明確呈現來源追溯-實作篇
+## 透過 RAG 技術強化 LLM 資訊檢索並明確呈現來源追溯-實作篇
 
 本篇文章將會使用上一篇文章所提到的 [RAG](https://blog.iddle.dev/public/2024/04/02/%E9%80%8F%E9%81%8E-RAG-%E6%8A%80%E8%A1%93%E5%BC%B7%E5%8C%96-LLM-%E8%B3%87%E8%A8%8A%E6%AA%A2%E7%B4%A2%E4%B8%A6%E6%98%8E%E7%A2%BA%E5%91%88%E7%8F%BE%E4%BE%86%E6%BA%90%E8%BF%BD%E6%BA%AF/) 技術，實作一個可以返回資訊來源的 LLM
 
@@ -22,7 +23,7 @@ description: 最近在解決 LLM 回答問題準確度的問題，我找到了�
 3. LlamaIndex：LlamaIndex 是一個為語言模型設計的索引和檢索框架，它提供了建立、管理和利用索引來增強語言模型檢索性能的工具。
 4. OpenAI embeddings：我們使用他語義檢索技術來增強大型語言模型（LLM）的能力，以及利用其生成向量嵌入的能力來改善文檔檢索的精確度和相關性。
 
-#### 安裝相關套件
+## 安裝相關套件
 ```shell
 !pip install milvus # optional
 !pip install python-dotenv
@@ -30,7 +31,7 @@ description: 最近在解決 LLM 回答問題準確度的問題，我找到了�
 !pip install llama-index-vector-stores-milvus # optional
 ```
 
-#### 設定 API KEY
+## 設定 API KEY
 {% note danger %}
 注意！ 設定 OpenAI api key 環境變數要放在 import SimpleDirectoryReader 之前，不然之後會讀不到 api key，[參考 Github 上面的問題](https://github.com/run-llama/llama_index/issues/6920)
 {% endnote %}
@@ -51,7 +52,7 @@ from google.colab import userdata
 os.environ["OPENAI_API_KEY"] = userdata.get('OPENAI_API_KEY')
 ```
 
-#### Import 相關套件
+## Import 相關套件
 {% note info %}
 記得要先設定 api key!!
 {% endnote %}
@@ -95,7 +96,7 @@ from llama_index.vector_stores.milvus import MilvusVectorStore
 
 卸載後可能會叫你 **Restart session**，按下 Restart session 後就可以了，重啟 session 後就可以成功 import 了！
 
-#### 從 PDF 文件中讀取文檔數據
+## 從 PDF 文件中讀取文檔數據
 先下載我們這次測試的 pdf 資料（可以是任意的資料），這裡提供我們這組為了專題整理的原住民資料來測試。
 
 用 wget 下載他
@@ -127,7 +128,7 @@ print(documents)
 472 代表 pdf 總共有 472 頁
 {% endnote %}
 
-#### 啟動 Milvus lite 服務
+## 啟動 Milvus lite 服務
 {% note info %}
 如果你不打算使用 Milvus，這段可以跳過
 {% endnote %}
@@ -150,7 +151,7 @@ vector_store = MilvusVectorStore(
 如果無法開啟伺服器，顯示 Timeout ，可能要把整個筆記本重開再試一次（這就是為什麼我不太想要用他的關係）
 {% endnote %}
 
-#### 從文檔中創建向量存儲索引
+## 從文檔中創建向量存儲索引
 接下來從文檔中創建向量存儲索引，
 [VectorStoreIndex.from_documents(documents)](https://docs.llamaindex.ai/en/stable/examples/vector_stores/SimpleIndexDemoLlama-Local/?h=vectorstoreindex)  會將文檔集合作為輸入，並基於這些文檔創建一個向量索引，使得可以在這些文檔中進行高效的相似性搜索或其他類型的向量操作。
 
@@ -159,7 +160,7 @@ vector_store = MilvusVectorStore(
 index = VectorStoreIndex.from_documents(documents)
 ```
 
-#### 設置 LLaMA 模型與嵌入
+## 設置 LLaMA 模型與嵌入
 處理完伺服器後就可以開始設置使用的模型，在這裡我們使用了 `GPT-3.5 Turbo` ， embedding 使用 `text-embedding-3-small`
 
 [SentenceSplitter](https://docs.llamaindex.ai/en/stable/module_guides/loading/node_parsers/modules/?h=sentencesplitter#sentencesplitter)裡面的
@@ -179,7 +180,7 @@ Settings.num_output = 256
 Settings.context_window = 3900
 ```
 
-#### 初始化的查詢引擎並且測試在模型中整合 RAG 技術進行增強的效果
+## 初始化的查詢引擎並且測試在模型中整合 RAG 技術進行增強的效果
 設定完後我們就可以測試我們整合 RAG 技術後的效果了，首先我們要先創建一個搜索引擎 [CitationQueryEngine](https://docs.llamaindex.ai/en/stable/examples/query_engine/citation_query_engine/?h=citationqueryengine) ，這裡我們設定搜索的頂部 `K` 值為 3，意味著返回相似性最高的前三個結果。`citation_chunk_size` 被設定為 256
 
 最後使用 `query_engine.query()` 來查找相關的資料。
@@ -211,7 +212,7 @@ for source in response.source_nodes:
     print(source.node.get_text())
 ```
 
-#### 成果：
+## 成果
 
 ```text
 阿美族有豐年祭和漁撈祭等祭典活動[5]。 豐年祭是阿美族規模最盛大且熱鬧非凡的節慶，具有政治、軍事、經濟、教育、訓練等功能，被認為是一年中最神聖的祭典，也是族人命脈延續根源的重要活動[5]。漁撈祭則包含海祭和河祭，是在每年5、6月間祭祀海神或河川神的活動，族人藉此祈求出海平安或撈捕魚類滿載而歸[1]。
@@ -402,7 +403,7 @@ for source in response.source_nodes:
 ## 程式碼
 此專案程式碼我都放在 [Google Colab](https://colab.research.google.com/drive/1XfHc2bFtITeB2w8jIC9z5JatfwMn_5fW?usp=sharing) 上，有興趣可以看看：Ｄ
 
-# 04/19 Update
+## 04/19 Update
 因為我覺得 Milvus 在這裡實在有點麻煩，每次執行都要跑很久，我乾脆就做了一個新的沒有 Milvus 的版本：[link](https://colab.research.google.com/drive/11oQ4tnOWZdIid_5jxPI3PvX6v0UMD8Qq?usp=sharing)
 
 除此之外這個更新過後的版本有新增了 ***取得 source 來源於哪個 pdf 檔案*** 的功能，想要看完整程式碼也是可以參考更新後的版本 :D

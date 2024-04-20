@@ -6,8 +6,9 @@ tags:
   - 網站開發
 categories:
   - 學習筆記
+toc: true
 ---
-# 如何用PHP製作簡易萬年曆
+## 如何用PHP製作簡易萬年曆
 
 最近因緣際會需要在網頁上製作一個萬年曆，最好是要可以超級簡單且非常好背的版本，最後決定直接用 PHP 做，想說順便分享一下我的作法。接下來本文將帶領大家使用PHP，來製作一個簡易的萬年曆！
 
@@ -45,14 +46,14 @@ $month = isset($_GET['month']) ? $_GET['month'] : date('m');
 
 這裡先簡單介紹一下這裡會用到的函式
 
-#### mktime 函式
+### mktime 函式
 `mktime()` 是 PHP 中的一個函式，用於**獲取 Unix 時間戳(timestamp)**。Unix 時間戳(timestamp)是指自1970年1月1日（即Unix紀元）以來的秒數。這個函式的一般格式如下：
 
 ```php
 mktime(hour, minute, second, month, day, year)
 ```
 
-#### date 函式
+### date 函式
 date() 函式用於**格式化 Unix 時間戳(timestamp)**，將其轉換為可讀的日期和時間格式。其語法如下：
 
 ```php
