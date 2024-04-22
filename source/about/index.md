@@ -3,7 +3,7 @@ title: 關於我
 layout: about
 banner_img: https://blog.iddle.dev/public/2023/03/13/test-post/test_img.png
 about:
-  description: 
+  description: Hello World
 
   social_links:
     - { icon: icon-github, link: https://github.com/kk98033 }
@@ -17,6 +17,9 @@ about:
 此blog應該還會放我平常做的一些專案的筆記和教學，如果我有時間的話;-;
 
 {% githubCard user:kk98033 %}
+{% linkPreview https://iddle.dev/ _blank nofollow %}
+{% linkPreview https://github.com/kk98033 _blank nofollow %}
+
 
 
 {% note info %}
