@@ -14,7 +14,7 @@ top: true
 
 CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這些題目被認為是基礎中的基礎，對於初學者來說非常適合練習，題目覆蓋了從**數學計算**到**進位制轉換**、**質數**、**因數**與**倍數**、**幾何與座標**以及**排序**與**中位數**等多個方面​​。
 
-最重要的一點是，考試每次 **至少會從「CPE 一顆星選集」中選出一題來考！！！！（共有49題）**因此掌握這些題目對於快速解決考試中的某些問題至關重要，也能在考試中節省更多時間來處理其他較為複雜的題目​​。
+最重要的一點是，考試每次 **至少會從「CPE 一顆星選集」中選出一題來考！！！！（共有49題）** 因此掌握這些題目對於快速解決考試中的某些問題至關重要，也能在考試中節省更多時間來處理其他較為複雜的題目​​。
 
 這樣的練習不僅有助於準備 CPE 考試，也有助於參與更多的程式設計競賽和提升個人的程式設計技能。以下是我從官方網站 **「CPE 一顆星選集」** 中整理出來的題目，我還會附上我自己詳細的解題思路和過程的 blog 連結。這些題目我都會比較詳細地介紹解法，希望能讓初學者也能理解。對於有興趣了解這些題目如何用 **Python 解法**或者是**解題思路**的朋友，可以點擊連結查看我的解法和思路。希望這些資訊能幫助你學習程式解題的技巧！
 
@@ -60,7 +60,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 | 37  | 10908     | [Largest Square](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)                 | []()                                                                                             |
 | 38  | 10922     | [2 the 9s](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)                       | [link](https://blog.iddle.dev/public/2024/04/21/Python-UVa-10922-2-the-9s/)                      |
 | 39  | 10929     | [You can say 11](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)                     | [link](https://blog.iddle.dev/public/2024/04/16/Python-UVa-10929-You-can-say-11/)                |
-| 40  | 10931     | [Parity](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1872)                         | []()                                                                                             |
+| 40  | 10931     | [Parity](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1872)                         | [link](https://blog.iddle.dev/public/2024/04/27/Python-UVa-10931-Parity/)                        |
 | 41  | 11005     | [Cheapest Base](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)                  | [link](https://blog.iddle.dev/public/2024/04/19/Python-UVa-11005-Cheapest-Base/)                 |
 | 42  | 11063     | [B2-Sequence](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2004)                    | [link](https://blog.iddle.dev/public/2024/04/21/Python-UVa-11063-B2-Sequence/)                   |
 | 43  | 11150     | [Cola](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)                           | [link](https://blog.iddle.dev/public/2024/04/12/Python-UVa-11150-Cola/#google_vignette)          |
@@ -120,7 +120,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 | 25. An Easy Problem!        | CPE10413, [UVA10093](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034) | [link](https://blog.iddle.dev/public/2023/12/07/Python-UVa-10093-An-Easy-Problem/) |
 | 26. Fibonaccimal Base       | CPE10401, [UVA948](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)    |                                                                                    |
 | 27. Funny Encryption Method | CPE10403, [UVA10019](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)  |                                                                                    |
-| 28. Parity                  | CPE10461, [UVA10931](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872) |                                                                                    |
+| 28. Parity                  | CPE10461, [UVA10931](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872) | [link](https://blog.iddle.dev/public/2024/04/27/Python-UVa-10931-Parity/)          |
 | 29. Cheapest Base           | CPE10466, [UVA11005](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946) | [link](https://blog.iddle.dev/public/2024/04/19/Python-UVa-11005-Cheapest-Base/)   |
 
 ## 質數、因數與倍數

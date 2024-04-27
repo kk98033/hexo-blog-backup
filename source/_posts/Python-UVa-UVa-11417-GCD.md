@@ -1,5 +1,5 @@
 ---
-title: Python UVa UVa 11417 - GCD
+title: Python UVa 11417 - GCD
 date: 2024-04-22 09:03:08
 tags:
   - UVa
