@@ -64,7 +64,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 | 41  | 11005     | [Cheapest Base](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)                  | [link](https://blog.iddle.dev/public/2024/04/19/Python-UVa-11005-Cheapest-Base/)                 |
 | 42  | 11063     | [B2-Sequence](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2004)                    | [link](https://blog.iddle.dev/public/2024/04/21/Python-UVa-11063-B2-Sequence/)                   |
 | 43  | 11150     | [Cola](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)                           | [link](https://blog.iddle.dev/public/2024/04/12/Python-UVa-11150-Cola/#google_vignette)          |
-| 44  | 11321     | [Sort! Sort!! and Sort!!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296)                                | []()                                                                                             |
+| 44  | 11321     | [Sort! Sort!! and Sort!!!](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296)                                | [link](https://blog.iddle.dev/public/2024/04/27/Python-UVa-11321-Sort-Sort-and-Sort/)            |
 | 45  | 11332     | [Summing Digits](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)                     | [link](https://blog.iddle.dev/public/2024/04/21/Python-UVa-11332-Summing-Digits/)                |
 | 46  | 11349     | [Symmetric Matrix](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2324)               | [link](https://blog.iddle.dev/public/2024/04/15/Python-UVa-11349-Symmetric-Matrix/)              |
 | 47  | 11417     | [GCD](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)                            | [link](https://blog.iddle.dev/public/2024/04/22/Python-UVa-UVa-11417-GCD/)                       |
@@ -164,9 +164,9 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 
 ## 其他
 
-| 題目                         | 題號                                                                                                          | 題解 |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ---- |
-| 49. Sort! Sort!! and Sort!!! | CPE11069, [UVA11321](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296) |      |
+| 題目                         | 題號                                                                                                          | 題解                                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 49. Sort! Sort!! and Sort!!! | CPE11069, [UVA11321](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2296) | [link](https://blog.iddle.dev/public/2024/04/27/Python-UVa-11321-Sort-Sort-and-Sort/) |
 
 
 [資料來源](https://cpe.cse.nsysu.edu.tw/environment.php)
