@@ -57,7 +57,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 | 34  | 10642     | [Can You Solve It?](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)              | []()                                                                                             |
 | 35  | 10783     | [Odd Sum](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1724)                        | [link](https://blog.iddle.dev/public/2024/04/08/Python-UVa-10783-Odd-Sum/)                       |
 | 36  | 10812     | [Beat the Spread!](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1753)                               | [link](https://blog.iddle.dev/public/2024/04/10/Python-UVa-10812-Beat-the-Spread/)               |
-| 37  | 10908     | [Largest Square](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)                 | []()                                                                                             |
+| 37  | 10908     | [Largest Square](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)                 | [link](https://blog.iddle.dev/public/2024/04/28/Python-UVa-10908-Largest-Square/)                |
 | 38  | 10922     | [2 the 9s](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)                       | [link](https://blog.iddle.dev/public/2024/04/21/Python-UVa-10922-2-the-9s/)                      |
 | 39  | 10929     | [You can say 11](https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)                     | [link](https://blog.iddle.dev/public/2024/04/16/Python-UVa-10929-You-can-say-11/)                |
 | 40  | 10931     | [Parity](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1872)                         | [link](https://blog.iddle.dev/public/2024/04/27/Python-UVa-10931-Parity/)                        |
@@ -136,12 +136,12 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 
 ## 幾何與座標
 
-| 題目                  | 題號                                                                                                                                  | 題解                                                                            |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| 36. Largest Square    | CPE10456, [UVA10908](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849) |                                                                                 |
-| 37. Satellites        | CPE10424, [UVA10221](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162) | [link](https://blog.iddle.dev/public/2023/12/10/Python-UVa-10221-Satellites/)   |
-| 38. Can You Solve It? | CPE10447, [UVA10642](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583) |                                                                                 |
-| 39. Fourth Point!!    | CPE10566, [UVA10242](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183) | [link](https://blog.iddle.dev/public/2023/12/10/Python-UVa-10242-Fourth-Point/) |
+| 題目                  | 題號                                                                                                                                  | 題解                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 36. Largest Square    | CPE10456, [UVA10908](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849) | [link](https://blog.iddle.dev/public/2024/04/28/Python-UVa-10908-Largest-Square/) |
+| 37. Satellites        | CPE10424, [UVA10221](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162) | [link](https://blog.iddle.dev/public/2023/12/10/Python-UVa-10221-Satellites/)     |
+| 38. Can You Solve It? | CPE10447, [UVA10642](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583) |                                                                                   |
+| 39. Fourth Point!!    | CPE10566, [UVA10242](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183) | [link](https://blog.iddle.dev/public/2023/12/10/Python-UVa-10242-Fourth-Point/)   |
 
 ## 排序與中位數
 
