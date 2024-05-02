@@ -69,7 +69,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 | 46  | 11349     | [Symmetric Matrix](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2324)               | [link](https://blog.iddle.dev/public/2024/04/15/Python-UVa-11349-Symmetric-Matrix/)              |
 | 47  | 11417     | [GCD](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)                            | [link](https://blog.iddle.dev/public/2024/04/22/Python-UVa-UVa-11417-GCD/)                       |
 | 48  | 11461     | [Square Numbers](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2456)                 | [link](https://blog.iddle.dev/public/2024/04/13/Python-UVa-11461-Square-Numbers/)                |
-| 49  | 12019     | [Doom's Day Algorithm](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)          | []()                                                                                             | <br> |
+| 49  | 12019     | [Doom's Day Algorithm](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)          | [link](https://blog.iddle.dev/public/2024/05/02/Python-UVa-12019-Doom-s-Day-Algorithm/)          | <br> |
 
 ---
 <br><br><br>
@@ -101,7 +101,7 @@ CPE 官方網站有列出 **「CPE 一顆星選集（共有49題）」**，這�
 
 | 題目                              | 題號                                                                                                                                   | 題解                                                                                             |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 14. Doom's Day Algorithm          | CPE22801, [UVA12019](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170) |                                                                                                  |
+| 14. Doom's Day Algorithm          | CPE22801, [UVA12019](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170) | [link](https://blog.iddle.dev/public/2024/05/02/Python-UVa-12019-Doom-s-Day-Algorithm/)          |
 | 15. Jolly Jumpers                 | CPE10405, [UVA10038](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979)   | [link](https://blog.iddle.dev/public/2023/03/20/Python-UVa-10038-Jolly-Jumpers/)                 |
 | 16. What is the Probability?      | CPE10408, [UVA10056](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)   | [link](https://blog.iddle.dev/public/2023/03/20/Python-UVa-10056-What-is-the-Probability/)       |
 | 17. The Hotel with Infinite Rooms | CPE10417, [UVA10170](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)  | [link](https://blog.iddle.dev/public/2023/03/18/Python-UVa-10170-The-Hotel-with-Infinite-Rooms/) |
